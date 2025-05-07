@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+         <div class="header-content">
+            <h1>Welcome To FOODFANFARE</h1>
+            <p>Discover Our Services and Offerings</p>
+            <a href="#services" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section id="about" class="full-screen warm-background">
+        <div class="container">
+            
+            <div class="column text-column">
+                <h1 class="about-heading">About Us</h1>
+                <p>Welcome to Food Fanfare, where every meal is a celebration of taste and delight.Our restaurant is your destination for an extraordinary culinary experience. We pride ourselves on offering a diverse, multi-cuisine menu that is both tasty and savory, designed to please every palate.</p>
+                
+                <h3><i>Our Story</i></h3>
+                <p>At Food Fanfare, we believe that food is more than just sustenance; it is an art form meant to be savored and celebrated. Our journey began with a passion for creating dishes that not only taste amazing but also bring joy to our guests. Whether you're dining in, taking out, or hosting an event, Food Fanfare promises an unforgettable experience.</p>
+                    
+                <h3><i>Our Cuisine</i></h3>
+                <p>Our multi-cuisine menu is designed to offer a variety of flavors that cater to diverse tastes. From the aromatic spices of Indian cuisine to the delicate flavors of Japanese sushi, the hearty comfort of Italian pasta, and the rich, savory goodness of American barbecue, there's something for everyone icecreams,drinks and cakes. Each dish is crafted with a balance of flavors, ensuring a harmonious and satisfying dining experience.</p>
+                
+                <h3><i>Our Commitment</i></h3>
+                <p>At Food Fanfare, we are dedicated to providing an exceptional dining experience with impeccable service. Our team is passionate about food and committed to making every visit a joyous occasion. Your satisfaction is our priority, and we continuously strive to exceed your expectations.</p>
+                <p>Thank you for choosing Food Fanfare. We look forward to serving you and making every meal a memorable celebration.</p>
+            </div>
+    
+            
+            <div class="column image-column">
+                <img src="./trail4.jpg" alt="Food Image">
+                <img src="./trail5.avif" alt="Food Image">
+                <img src="./trail6.jpg" alt="Food Image">
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="services-heading">Services</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="HD-wallpaper-dinner-meal-meat-food.jpg" alt="Dine-In Icon">
+                    <h3>Dine-In</h3>
+                    <p>Experience our cozy and welcoming dining atmosphere where you can enjoy our delicious menu offerings in person.</p>
+                </div>
+                <div class="service-item">
+                    <img src="HD-wallpaper-cp-food-boxes-food-boxes-custom-food-packaging-food-packaging-custom-printed-food-boxes.jpg" alt="Takeout Icon">
+                    <h3>Takeout</h3>
+                    <p>Enjoy our chef-crafted meals from the comfort of your home with our convenient takeout service. Call ahead or order online.</p>
+                </div>
+                <div class="service-item">
+                    <img src="./bu.jpg" alt="Catering Icon">
+                    <h3>Catering</h3>
+                    <p>Planning a special event? Let us cater your next gathering with our delectable dishes tailored to your preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="contact-heading">Get In Touch</h2>
+            <form action="submit_contact_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+  
+    <footer>
+        <p>&copy; 2024 FoodFanFare All rights reserved.</p>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">Top</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
